@@ -1,0 +1,399 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+header {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: black;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	position: fixed;
+}
+header ul li:hover {
+	color: orange;
+	border-radius: 2px;
+	background-color: #5b264e;
+}
+header ul li ul li:hover {
+	color: orange;
+	background-color: #5b264e;
+}
+header ul li {
+	width: 10%;
+	height: auto;
+	float: left;
+	list-style: none;
+	text-align: left;
+	color: white;
+	padding-left: 10px;
+}
+header ul li:hover ul {
+	display: block;
+}
+header ul li ul {
+	display:  none;
+}
+header ul li ul li {
+	width: 100%;
+	height: 30px;
+	border: 3px;
+	color: white;
+	background-color: black;
+}
+header img {
+	padding-top: 0px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 0px;
+	width: 80px;
+}
+div marquee {
+	color: white;
+	background: #5b264e;
+	position: fixed;
+}
+.tengah {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	text-align:left;
+	background: #ccca34;
+	padding-top: 90px;
+}
+.page {
+	width:940px;
+	margin:0 auto;
+	background: #607676; /* biru es */
+	padding:20px;
+	color: black;
+}
+.bawah{
+	width: 100%;
+	height: 75pt;
+	margin: 0px;
+	text-align:left;
+	background: black;
+}
+.bawahTengah {
+	width: 500px;
+	margin: auto;
+	text-align: center;
+	color: white;
+}
+.bawahKiri {
+	width: 300px;
+	margin:auto;
+	float: left;
+	color: white;
+	padding: 15px;
+}
+.bawahKiri img {
+	width: 15%;
+}
+
+/* Pertol Berita */
+.page2per3 {
+	width: 540px;
+	list-style: none;
+	background: #cacaca; /* putih abu */
+	padding: 20px;
+	float: left;
+	color: black;
+}
+.page1per3 {
+	width: 300px;
+	background: #cacaca; /* putih abu */
+	padding: 20px;
+	float: right;
+	list-style: none;
+	color: black;
+}
+.garisBerita {
+	width: 580px;
+	color: black;
+}
+.berikutnyaBerita {
+	width: 60px;
+	height: 60px;
+	padding-left: 35%;
+	padding-top: 45%;
+}
+.berikutnyaBerita ul li {
+	list-style: none;
+}
+
+/*PENDAFTARAN*/
+.table {
+	width: 100%;
+	background: white;
+}
+
+.table th {
+	background: orange;
+	text-align: center;
+}
+
+/* Portal Dokumentasi */
+.pageDokumenKiri {
+	width: 420px;
+	list-style: none;
+	background: #cacaca; /* putih abu */
+	padding: 20px;
+	float: left;
+}
+.pageDokumenKanan {
+	width: 420px;
+	background: #cacaca; /* putih abu */
+	padding: 20px;
+	float: right;
+	list-style: none;
+}
+.berikutnyaDokumen {
+	width: 60px;
+	height: 60px;
+	padding-left: 47%;
+	padding-top: 45%;
+}
+.berikutnyaDokumen ul li {
+	list-style: none;
+}
+
+/*ORMAWA*/
+.pageLogoUKM {
+	width: 300px;
+	background: #54b6b6;
+	padding: 20px;
+	float: right;
+	list-style: none;
+	border-radius: 50px;
+}
+.linkOrmawa {
+	width: 500px;
+	height: 30px;
+	padding-left: 20%;
+	padding-top: 15%;
+}
+.laos {
+	padding-top: 18%;
+}
+.maco {
+	padding-top: 8%;
+}
+.etalase {
+	padding-top: 3%;
+}
+.binary {
+	padding-top: 35%;
+}
+
+/*KOTAK SARAN*/
+#pop{
+	height: 280px;
+	width: 470px;
+	position: fixed;
+	bottom: 25%;
+	right: 45%;
+	padding: 10px;
+	background: yellow;
+	border-radius: 10px;
+	display: none;
+}
+#close{
+	right: 5;
+	top: 5;
+	float: right;
+}
+
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 480px) {
+
+/* home */
+	* {
+		margin: 0;
+		padding: 0;
+		font-family: sans-serif;
+		font-size: 12px;
+	}
+	header {
+		width: auto;
+		height: 360px;
+		line-height: 30px;
+		text-align: center;
+		background-color: #ccca34;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		position: relative;
+	}
+	header ul li {
+		width: auto;
+		height: auto;
+		float: none;
+		list-style: none;
+		text-align: center;
+		color: black;
+		padding-left: 0px;
+	}
+	header ul li:hover ul {
+		display: block;
+	}
+	header ul li ul {
+		display:  none;
+	}
+	header ul li ul li {
+		width: 100%;
+		height: 30px;
+		border: 1px;
+		color: white;
+		background-color: black;
+	}
+	header img {
+		padding-top: 0px;
+		padding-right: 0px;
+		padding-left: 0px;
+		padding-bottom: 0px;
+		width: 40px;
+	}
+	div marquee {
+		color: white;
+		background: black;
+		position: relative;
+	}
+	.tengah {
+		width: auto;
+		height: 100%;
+		margin: 0;
+		text-align:left;
+		background: url(Image/2.png);
+		padding-top: 0px;
+	}
+	.bawah{
+		width: auto;
+		height: 100pt;
+		margin: 0;
+		text-align:left;
+		background: black;
+	}
+	.page {
+		width:auto;
+		margin:0 auto;
+		background: #607676; /* biru es */
+		padding: auto;
+	}
+	.bawahTengah {
+		width: auto;
+		margin: auto;
+		text-align: center;
+		color: #FFFFFF; /*warna putih*/
+	}
+	.bawahKiri {
+		width: auto;
+		margin:auto;
+		float: none;
+		color: #FFFFFF;
+		padding: 10px;
+	}
+	.bawahKiri img {
+		width: 8%;
+	}
+
+/* portal berita */
+	.page2per3 {
+		width: auto;
+		list-style: none;
+		background: #cacaca; /* putih abu */
+		padding: 20px;
+		float: none;
+		color: black;
+	}
+	.page1per3 {
+		width: auto;
+		background: #cacaca; /* putih abu */
+		padding: 20px;
+		float: none;
+		list-style: none;
+		margin-top: 20px;
+	}
+	.garisBerita {
+		width: auto;
+		color: black;
+	}
+	.berikutnyaBerita {
+		width: 30px;
+		height: 30px;
+		padding-left: 35%;
+		padding-top: 15%;
+	}
+	.berikutnyaBerita ul li {
+		list-style: none;
+	}
+
+/*PENDAFTARAN*/
+	.table {
+		width: auto;
+		background: white;
+		float: none;
+	}
+	.table th {
+		background: green;
+		text-align: center;
+	}
+
+/* Portal Dokumentasi */
+	.pageDokumenKiri {
+		width: 35%;
+		list-style: none;
+		background: #cacaca; /* putih abu */
+		padding: 20px;
+		float: left;
+	}
+	.pageDokumenKanan {
+		width: 35%;
+		background: #cacaca; /* putih abu */
+		padding: 20px;
+		float: right;
+		list-style: none;
+	}
+	.berikutnyaDokumen {
+		width: 30px;
+		height: 30px;
+		padding-left: 47%;
+		padding-top: 85%;
+	}
+	.berikutnyaDokumen ul li {
+		list-style: none;
+	}
+
+/*ORMAWA*/
+	.pageLogoUKM {
+		width: 150px;
+		background: green;
+		padding: 20px;
+		float: none;
+		list-style: none;
+		border-radius: 75px;
+	}
+	.linkOrmawa {
+		width: auto;
+		height: 30px;
+		padding-left: 20%;
+		padding-top: 15%;
+	}
+	.laos {
+		padding-top: 18%;
+	}
+	.maco {
+		padding-top: 8%;
+	}
+	.etalase {
+		padding-top: 3%;
+	}
+	.binary {
+		padding-top: 15%;
+	}
+}
